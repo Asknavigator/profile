@@ -84,10 +84,10 @@ body::-webkit-scrollbar {
 }
 
 .cont-btn:hover {
-   /*  color: var(--theme-color);
-   background: transparent; */
+     color: #c8caff;;
+   /* background: transparent; 
     border: 5px solid var(--theme-color);
-    /* font-weight: bold; */
+    font-weight: bold; */
 }
 
 .prof_det {
