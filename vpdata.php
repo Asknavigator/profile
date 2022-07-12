@@ -2,7 +2,7 @@
 
 $url= $_SERVER['REQUEST_URI'];    
 $vid = explode("-", explode("/", $url)[1])[1];
-$cfirstname = explode("-", explode("/", $url)[0])[0];
+$cfirstname = explode("-", explode("/", $url)[1])[0];
 
 echo $cfirstname ;
 If(!$vid OR !$cfirstname){
