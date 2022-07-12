@@ -3,7 +3,7 @@
 $vid= $_GET['v'];
 
 If(!$vid){
-echo "Invalud Url <br>";
+echo "Invalid Url";
 die;
 }
 
@@ -26,10 +26,11 @@ curl_close($curl);
 $res = json_encode($resp, true);
 $vendor = $res['data'] ?? null; 
 if($res["res"] != 'success' or $vendor == null ){
-   die('Wrong Id');
+  // die('Wrong Id');
 }
 
 // use $vendor['column name'];
+echo $vendor['name'];
 
 ?>
 
