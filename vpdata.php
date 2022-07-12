@@ -21,7 +21,7 @@ $resp = curl_exec($curl);
 curl_close($curl);
 // var_dump($resp);
 
-$res = json_encode($resp, true);
+$res = json_decode($resp, true);
 $vendor = $res['data'] ?? null; 
 if($res["res"] != 'success' or $vendor == null ){
   // die('Wrong Id');
@@ -29,6 +29,6 @@ if($res["res"] != 'success' or $vendor == null ){
 
 // use $vendor['column name'];
 
-echo $res['name'];
+echo $vendor['capacity'];
 ?>
 
