@@ -3,7 +3,7 @@
 $vid= $_GET['v'];
 
 If(!$vid){
-echo "Invalud Url";
+echo "Invalud Url <br>";
 die;
 }
 
