@@ -30,7 +30,7 @@ if($res["res"] != 'success' or $vendor == null ){
 }
 
 // use $vendor['column name'];
-$cfirstnamedb = $vendor['company name'];
+$cfirstnamedb = $vendor['company'];
 $cfirstnamedb = strtolower($cfirstnamedb);
 
 echo $cfirstnamedb;
