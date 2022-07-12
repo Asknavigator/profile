@@ -1,15 +1,10 @@
 <?php
 
 $url= $_SERVER['REQUEST_URI'];    
+$vid = explode("-", explode("/", $url)[1])[1];
+$cfirstname = explode("-", explode("/", $url)[0])[0];
 
-echo $url;
-$royal = explode("-", explode("/", $url)[1])[1];
-
-echo "$royal";
-
-$vid= $_GET['v'];
-
-If(!$vid){
+If(!$vid OR !$cfirstname){
 echo "Invalid Url";
 die;
 }
