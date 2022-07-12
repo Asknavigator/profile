@@ -35,8 +35,9 @@ $cfirstnamedb = explode(" ", $cfirstnamedb)[0];
 $cfirstnamedb = strtolower($cfirstnamedb);
 
 if ($cfirstnamedb != $cfirstname){
-   echo "Invalid Url";
-   die;
+   // echo "Invalid Url";
+   // die;
+   // do nothing for now
 }
 ?>
 
