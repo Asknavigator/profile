@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./css/extracss.css">
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css?v1">
     <link rel="stylesheet" href="./css/mq.css">
 
 
@@ -41,7 +41,7 @@
                         <span class="menu-sm d-md-none">
                             <i class="fa-solid fa-ellipsis-vertical"></i>
 
-                            <a class="rep-user d-none">
+                            <a class="rep-user d-none cur-point">
                                 <span>Report User</span>
                         </a>
                         </span>

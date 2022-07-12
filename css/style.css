@@ -85,7 +85,7 @@ body::-webkit-scrollbar {
 
 .cont-btn:hover {
     color: var(--theme-color);
-    background: transparent;
+   /* background: transparent; */
     border: 1px solid var(--theme-color);
     /* font-weight: bold; */
 }
@@ -150,6 +150,7 @@ body::-webkit-scrollbar {
     top: 0%;
     left: 96%;
     transform: translateX(-100%);
+    cursor: pointer;
 }
 
 .info-block img {
@@ -466,7 +467,9 @@ body::-webkit-scrollbar {
     font-size: .85rem;
 }
 
-.cur-point {}
+.cur-point {
+    cursor: pointer;
+}
 
 .text-black {
     color: black !important;
