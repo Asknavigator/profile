@@ -1,6 +1,6 @@
 <?php
 
-$url.= $_SERVER['REQUEST_URI'];    
+$url= $_SERVER['REQUEST_URI'];    
 
 echo $url;
 $royal = explode("-", explode("/", $url)[1])[1];
