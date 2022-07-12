@@ -1,8 +1,11 @@
 <?php
 
+$url.= $_SERVER['REQUEST_URI'];    
+
 $royal = explode("-", explode("/", $url)[1])[1];
 
 echo "$royal";
+
 $vid= $_GET['v'];
 
 If(!$vid){
