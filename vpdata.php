@@ -31,8 +31,13 @@ if($res["res"] != 'success' or $vendor == null ){
 
 // use $vendor['column name'];
 $cfirstnamedb = $vendor['company'];
+$cfirstnamedb = explode(" ", $cfirstnamedb)[0];
 $cfirstnamedb = strtolower($cfirstnamedb);
 
 echo $cfirstnamedb;
+if ($cfirstnamedb != $cfirstname){
+   echo "Invalid Url";
+   die;
+}
 ?>
 
