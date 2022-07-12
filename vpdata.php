@@ -19,7 +19,7 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 $resp = curl_exec($curl);
 curl_close($curl);
-var_dump($resp);
+// var_dump($resp);
 
 $res = json_encode($resp, true);
 $vendor = $res['data'] ?? null; 
