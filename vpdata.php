@@ -3,7 +3,7 @@
 $url= $_SERVER['REQUEST_URI'];    
 $vid = explode("-", explode("/", $url)[1])[1];
 $cfirstname = explode("-", explode("/", $url)[1])[0];
-
+5
 echo $cfirstname ;
 If(!$vid OR !$cfirstname){
 echo "Invalid Url";
@@ -31,7 +31,8 @@ if($res["res"] != 'success' or $vendor == null ){
 }
 
 // use $vendor['column name'];
+$cfirstnamedb = strtolower($vendor['company name'])
 
-echo $vendor['capacity'];
+echo $cfirstnamedb;
 ?>
 
