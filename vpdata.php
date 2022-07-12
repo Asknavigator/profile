@@ -2,6 +2,7 @@
 
 $url.= $_SERVER['REQUEST_URI'];    
 
+echo $url;
 $royal = explode("-", explode("/", $url)[1])[1];
 
 echo "$royal";
