@@ -32,7 +32,7 @@
 
                                 </div>
 
-                                <h6 class="mb-0 "> Greenway Packers Movers </h6>
+                                <h6 class="mb-0 "> <?php echo $vendor['company']; ?> </h6>
 
 
                             </header>
@@ -61,7 +61,7 @@
                             <div class="prof_det flex-grow-1 d-md-block d-inline-flex flex-column align-items-start">
 
                                 <h6 class="name text-md-start text-center mx-auto">
-                                    Happy singh bhardwaj
+                                <?php echo $vendor['name']; ?>
                                 </h6>
                                 <h6 class="sm-info text-md-start text-center mx-auto d-inline-flex align-items-center justify-content-start"> <span>Pro Vendor</span> <span class="text-black">at AskNavigator</span> <img src="./images/image 8.png" alt=""></h6>
                                 <h6 class="full-info text-md-start text-center"> <span>
@@ -74,7 +74,7 @@
 
                             <div class="contact-div">
 
-                                <a href="index.html" class="cont-btn">Contact Vendor</a>
+                                <a href="3" class="cont-btn">Contact Vendor</a>
 
 
                             </div>
@@ -89,7 +89,7 @@
                         <div class="col-12 trust-score-block mark-pro d-flex align-items-center justify-content-center">
                             <div class="quoto">
 
-                                <span class="quoto_send text-theme">585</span>
+                                <span class="quoto_send text-theme"><?php echo $vendor['Total_Leads_Distributed']; ?></span>
                                 <span>Quotation sends</span>
 
                             </div>
@@ -122,7 +122,7 @@
                                     <img src="./images/Group 48095785.png" alt="" class="img-fluid">
                                 </span>
 
-                                <span>Documents Verified</span>
+                                <span><?php echo $vendor['verification_status']; ?></span>
 
                             </div>
                         </div>
