@@ -1,0 +1,366 @@
+@media screen and (min-width:768px) {
+    .serv-sec>.col-md-35 {
+        width: 32%;
+        flex: 0 0 auto;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .profile_card {
+        box-shadow: none !important;
+    }
+    .tr-score-value>span:first-child {
+        font-size: 1.1rem;
+        /* word-break: keep-all; */
+    }
+    .tr-score-value>span:last-child {
+        font-size: .8rem;
+        /* word-break: keep-all; */
+    }
+    .trust-score-block>div>*:last-child {
+        font-size: .55rem;
+        color: #434343;
+        font-weight: 500;
+        /* word-break: keep-all; */
+        /* font-family: "marklight"; */
+    }
+    .trust-score-block>div {
+        padding: 1rem .2rem;
+    }
+    .faq-section {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: stretch;
+    }
+    .faq-sec {
+        width: 100%;
+    }
+    .faq-sec>.d-flex {
+        padding: 1.3rem;
+    }
+    .rev-card,
+    .write-review {
+        padding: 1rem .7rem;
+        margin-bottom: 20px;
+    }
+    .rev-content {
+        margin-top: .9rem;
+        margin-bottom: .9rem;
+    }
+    .rev-img {
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    .write-review .rev-img {
+        width: 10px;
+        height: 10px;
+        margin-left: .3rem;
+    }
+    .write-review .rev-img i {
+        font-size: .85rem;
+    }
+    .faq-sec p {
+        padding-right: 0 !important;
+    }
+    .serv-sec>.col-md-35>.d-flex.active::before {
+        transform: translate(-100%, -50%) rotate(180deg);
+    }
+    .serv-sec>.col-md-35>.d-flex {
+        flex-direction: row !important;
+        /* justify-content: space-evenly ; */
+        align-items: center;
+        position: relative;
+    }
+    .serv-img {
+        height: 4rem;
+        width: 6rem;
+        display: flex;
+        align-items: center;
+        margin-right: .8rem;
+    }
+    .serv-sec p {
+        font-size: .82rem;
+        padding: .2rem .4rem;
+    }
+    .vendor-nav>.nav-link:focus-visible {
+        background-color: white;
+        outline: none;
+    }
+    .faq>p {
+        padding: .2rem;
+    }
+    .faq-sec h6 {
+        font-size: 1rem;
+    }
+    .faq-sec {
+        /* padding: 1.3rem; */
+    }
+    .prof_det .sm-info {
+        font-size: .8rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+    }
+    .prof_det .sm-info img {
+        width: 0.9rem;
+        height: .9rem;
+    }
+    .prof_det .sm-info span {
+        margin-right: .1rem;
+    }
+    .prof_det .name {
+        font-size: 12px;
+    }
+    .rep-user {
+        position: absolute;
+        top: 0%;
+        left: 78%;
+        transform: translate(-100%, 0%);
+        display: inline-block;
+        background-color: white;
+        width: 6rem !important;
+        border-radius: 4px;
+        /* background-color: #434343; */
+        padding: .7rem;
+        box-shadow: 0rem 0.2rem 0.5rem rgb(206 206 206 / 47%);
+        font-size: 10px;
+        color: #4E4E4E;
+        font-weight: 500;
+    }
+    /* .rep-user::before{
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 1%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+
+    border: 7px solid transparent;
+    border-bottom: 7px solid var(--theme-color);
+    /* box-shadow: 0rem 0.2rem 0.5rem rgb(206 206 206 / 47%); */
+    .profile_card {
+        padding-bottom: 0 !important;
+    }
+    .prof_det {
+        padding-bottom: 0 !important;
+    }
+    .write-review .rev-info>*:last-child {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .copy {
+        font-size: 12px;
+    }
+    .contact-div {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: 99;
+        right: 0;
+        /* top: 0; */
+    }
+    .contact-div a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .serv-sec>.col-md-35:hover {
+        box-shadow: none;
+    }
+    .serv-sec>.col-md-35 {
+        background-color: white;
+        border: 0.6px solid #DADADA;
+        margin-bottom: 17px;
+        padding: .5rem;
+        position: relative;
+        filter: drop-shadow(0px 1px 6px rgba(140, 140, 140, 0.17));
+    }
+    .serv-sec>.col-md-35>.d-flex::before {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        transform: translate(-100%, -50%) rotate(0deg);
+        content: "";
+        height: 1.3rem;
+        width: 1.3rem;
+        background: url("../images/down-arrow.png");
+        background-position: center;
+        background-size: cover;
+        transition: all .35s;
+    }
+    .brand_ven h6 {
+        font-size: 13px;
+    }
+    .brand_ven img {
+        width: 12px;
+    }
+    .brand_ven {
+        padding: .4rem .8rem;
+    }
+    .profile-img-div {
+        margin-top: 0;
+    }
+    .prof_det {
+        padding-top: 0;
+    }
+    .prof_det .name {
+        padding-top: 0;
+    }
+    .profile_card {
+        padding-top: 5px !important;
+    }
+    .img-profile-sec {
+        width: 75px !important;
+        height: 75px !important;
+    }
+    .img-profile-sec {
+        font-size: 10px;
+    }
+    .prof_det .sm-info {
+        font-size: 10px;
+    }
+    .prof_det .sm-info img {
+        width: 12px;
+        height: 12px;
+    }
+    .prof_det .sm-info span {
+        margin-right: 2px;
+    }
+    .prof_det .full-info {
+        font-size: 11px;
+    }
+    .quoto_send {
+        font-size: 13px;
+    }
+    .trust-score-block>div>*:last-child {
+        font-size: 9px;
+    }
+    .tr-score-value>span:first-child {
+        font-size: 20px;
+        /* word-break: keep-all; */
+    }
+    .tr-score-value>span:last-child {
+        font-size: 10px;
+        /* word-break: keep-all; */
+    }
+    .tr-img img {
+        width: 24px;
+    }
+    .tr-img+div+span {
+        font-weight: 500 !important;
+    }
+    .doc-img {
+        width: 27px;
+    }
+    .trust-score-block>div {
+        padding: 15px 5px;
+    }
+    .tr-score {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+    .vendor-nav>.nav-link {
+        font-size: 13px;
+    }
+    .serv-title {
+        font-size: 12px !important;
+    }
+    .serv-sec>.col-md-35>.d-flex::before {
+        height: 15px;
+        width: 15px;
+        left: 95%;
+    }
+    .serv-img {
+        height: 50px;
+        width: 90px;
+    }
+    .serv-sec>.col-md-35:last-child .serv-img {
+        height: 50px;
+        width: 65px;
+    }
+    .serv-sec>.col-md-35:last-child .serv-title {
+        margin-left: 1.65rem;
+    }
+    .serv-img img {
+        width: 100%;
+        /* height: 100%; */
+        /* object-fit: cover; */
+    }
+    .serv-sec p {
+        font-size: 10px;
+    }
+    .faq h1 {
+        font-size: 16px;
+    }
+    .info_block:hover {
+        pointer-events: none !important;
+    }
+    .info-block img {
+        width: 8px;
+        height: 8px;
+    }
+    .faq>p {
+        font-size: 12px;
+    }
+    .faq h6 {
+        font-size: 14px;
+    }
+    .faq-sec p {
+        font-size: 11px;
+    }
+    /* .faq-section .faq-sec{
+    margin-top: 20px;
+} */
+    .rev-info> :first-child {
+        font-size: 11px;
+    }
+    .rev-info>*:last-child {
+        font-size: 10px !important;
+    }
+    .rev-content {
+        font-size: 12px;
+    }
+    .check-issue * {
+        font-size: 11px;
+        margin-right: 5px !important;
+    }
+    .show-more {
+        font-size: 10px;
+    }
+    .show-more i {
+        font-size: 9px;
+    }
+    .ask-nav-head {
+        font-size: 16px !important;
+    }
+    .ask-nav-head+h6 {
+        font-size: 12px;
+    }
+    .serv-sec p {
+        padding: 10px;
+    }
+    .menu-sm {
+        position: absolute;
+        top: 2%;
+        left: 98%;
+        transform: translate(-100%, 100%);
+        display: inline-block;
+        width: auto !important;
+        font-size: 14px;
+    }
+    .faq>p {
+        margin-bottom: 29px !important;
+    }
+    .faq {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tab-main-content {
+        padding-top: 23px !important;
+        padding-bottom: 23px !important;
+    }
+}
