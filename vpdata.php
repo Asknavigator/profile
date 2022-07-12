@@ -9,8 +9,6 @@ die;
 
 $url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=".$vid;
 
-echo $url;
-
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -21,7 +19,7 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 $resp = curl_exec($curl);
 curl_close($curl);
-// var_dump($resp);
+var_dump($resp);
 
 $res = json_encode($resp, true);
 $vendor = $res['data'] ?? null; 
