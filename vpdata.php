@@ -29,6 +29,6 @@ if($res["res"] != 'success' or $vendor == null ){
 
 // use $vendor['column name'];
 
-echo $res['capacity'];
+echo $res['name'];
 ?>
 
