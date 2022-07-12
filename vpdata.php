@@ -2,8 +2,10 @@
 
 $vid= $_GET['v'];
 
-If($vid=NULL){
-echo "heuy";
+If(!$vid){
+echo "not found";
+}else {
+   echo "found";
 }
 
 $url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=".$vid;
