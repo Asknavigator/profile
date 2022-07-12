@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/mq.css">
 
 
-    <title>Vendor Profile of <?php echo $vendor['company']; </title>
+    <title>Vendor Profile of <?php echo $vendor['company']; ?></title>
 </head>
 
 <body>
