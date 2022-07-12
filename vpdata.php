@@ -1,9 +1,11 @@
 <?php
 
 $vid= $_GET['v'];
-If($vid=null){
+
+If($vid=NULL){
 echo "heuy";
 }
+
 $url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=".$vid;
 
 $curl = curl_init($url);
