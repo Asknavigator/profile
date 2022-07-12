@@ -3,9 +3,8 @@
 $vid= $_GET['v'];
 
 If(!$vid){
-echo "not found";
-}else {
-   echo "found";
+echo "Invalud Url";
+die;
 }
 
 $url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=".$vid;
