@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="./css/extracss.css">
 
-    <link rel="stylesheet" href="./css/style.css?v1">
+    <link rel="stylesheet" href="./css/style.css?v2">
     <link rel="stylesheet" href="./css/mq.css">
 
 
