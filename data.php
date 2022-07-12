@@ -1,6 +1,6 @@
 <?php
-
-$url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=456";
+$vid= $_GET['v'];
+$url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=".$vid;
 
 $curl = curl_init($url);
 curl_setopt($curl, CURLOPT_URL, $url);
