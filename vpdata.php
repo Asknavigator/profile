@@ -21,7 +21,7 @@ curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
 
 $resp = curl_exec($curl);
 curl_close($curl);
- var_dump($resp);
+// var_dump($resp);
 
 $res = json_decode($resp, true);
 $vendor = $res['data'] ?? null; 
@@ -34,7 +34,6 @@ $cfirstnamedb = $vendor['company'];
 $cfirstnamedb = explode(" ", $cfirstnamedb)[0];
 $cfirstnamedb = strtolower($cfirstnamedb);
 
-echo $cfirstnamedb;
 if ($cfirstnamedb != $cfirstname){
    echo "Invalid Url";
    die;
