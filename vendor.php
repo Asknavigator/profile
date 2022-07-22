@@ -37,7 +37,7 @@ function main()
   $first_name = explode(" ", $first_name)[0];
   $first_name = strtolower($first_name);
 
-  if ($first_name != $cfirstname) {
+  if ($first_name != $first_name) {
   // echo "Invalid Url";
   // die;
   // do nothing for now
