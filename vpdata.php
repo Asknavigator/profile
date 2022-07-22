@@ -43,10 +43,12 @@ function main()
   // do nothing for now
   }
 
+  return $vendor;
+
 }
 
 try {
-  main();
+  $vendor = main();
 } catch (\Throwable $th) {
   echo $th->getMessage();
 }
