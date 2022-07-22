@@ -33,11 +33,11 @@ function main()
   }
 
   // use $vendor['column name'];
-  $cfirstnamedb = $vendor['company'];
-  $cfirstnamedb = explode(" ", $cfirstnamedb)[0];
-  $cfirstnamedb = strtolower($cfirstnamedb);
+  $first_name = $vendor['company'];
+  $first_name = explode(" ", $first_name)[0];
+  $first_name = strtolower($first_name);
 
-  if ($cfirstnamedb != $cfirstname) {
+  if ($first_name != $cfirstname) {
   // echo "Invalid Url";
   // die;
   // do nothing for now
