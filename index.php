@@ -24,7 +24,7 @@
     <script src="./js/main.js"></script>
     <script>
         function writeReview(){
-          var phone = <?php echo $vendor["phone"]  ?>;
+          var phone = 9068062563;
           var message =  "<?php echo urlencode("I want to review {$vendor['name']} ({$vendor['id']})") ?>";
           var url = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
           window.open(url);
