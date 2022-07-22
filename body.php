@@ -340,7 +340,7 @@
                           </div>
 
                           <div class="rev-info">
-                            <span class="rev-name">Write a review</span>
+                            <span class="rev-name" onclick='writeReview()'>Write a review</span>
                           </div>
 
                           <div class="five-star ms-auto mb-auto">

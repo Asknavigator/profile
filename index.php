@@ -22,5 +22,13 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
+    <script>
+        function writeReview(){
+          var phone = <?php echo $vendor["phone"]  ?>;
+          var message =  "<?php echo urlencode("I want to review {$vendor['name']} ({$vendor['id']})") ?>";
+          var url = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+          window.open(url);
+        }
+    </script>
   </body>
 </html>
