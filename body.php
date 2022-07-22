@@ -98,7 +98,7 @@
                   </div>
 
                   <div class="tr-score-value d-flex align-items-end">
-                    <span>4.5</span> <span>/10</span>
+                    <span><?php echo $vendor['Total_Leads_Distributed']; ?></span> <span>/10</span>
                   </div>
 
                   <span>Trust Score</span>
@@ -626,7 +626,4 @@
       </div>
     </div>
 
-    <script
-      src="https://kit.fontawesome.com/2918a48001.js"
-      crossorigin="anonymous"
-    ></script>
+  

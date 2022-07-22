@@ -17,6 +17,10 @@
 
   <body>
     <?php include("body.php") ?>
+    <script
+      src="https://kit.fontawesome.com/2918a48001.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
