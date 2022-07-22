@@ -23,10 +23,13 @@
     ></script>
     <script src="./js/main.js"></script>
     <script>
-        function writeReview(){
+        function whatsapp(type){
           var phone = <?php echo $support_number; ?>;
-          var message =  "<?php echo urlencode("I want to review {$vendor['name']} ({$vendor['id']})") ?>";
-          var url = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+          var messages =  {
+            "review": "<?php echo urlencode("I want to review {$vendor['name']} ({$vendor['id']})") ?>",
+            "report": "<?php echo urlencode("I want to report {$vendor['name']} ({$vendor['id']})") ?>",
+          }
+          var url = `https://api.whatsapp.com/send?phone=${phone}&text=${message[type]}`;
           window.open(url);
         }
     </script>

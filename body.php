@@ -21,7 +21,7 @@
                 <i class="fa-solid fa-ellipsis-vertical"></i>
 
                 <a class="rep-user d-none cur-point">
-                  <span>Report User</span>
+                  <span  onclick='whatsapp("report")'>Report User</span>
                 </a>
               </span>
             </div>
@@ -340,7 +340,7 @@
                           </div>
 
                           <div class="rev-info">
-                            <span class="rev-name" onclick='writeReview()'>Write a review</span>
+                            <span class="rev-name" onclick='whatsapp("review")'>Write a review</span>
                           </div>
 
                           <div class="five-star ms-auto mb-auto">
