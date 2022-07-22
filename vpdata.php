@@ -49,7 +49,8 @@ function main()
 
 try {
   $vendor = main();
-} catch (\Throwable $th) {
+}
+catch (\Throwable $th) {
   echo $th->getMessage();
 }
 
