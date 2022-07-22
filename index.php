@@ -1,4 +1,4 @@
-<?php include('vpdata.php'); ?>
+<?php include('vendor.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
