@@ -10,7 +10,7 @@ function parse_nameid(&$ven_id, &$first_name)
 
   if (!$ven_id or !$first_name) {
     echo "Invalid Url";
-    die;
+    die();
   }
 }
 
