@@ -22,7 +22,7 @@ function main()
   parse_nameid($ven_id, $first_name);
 
   $url = "https://api.asknavigator.com/?o=vendors_view&a=read&i=$ven_id";
-  $resp = Http->get($url);
+  $resp = Http::get($url);
 
   echo $resp;
   $res = json_decode($resp, true);
