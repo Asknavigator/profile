@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="contact-div">
-                  <a href="3" class="cont-btn">Contact Vendor</a>
+                  <a href="tel:<?php echo $support_number; ?>" class="cont-btn">Contact Vendor</a>
                 </div>
               </div>
             </div>
