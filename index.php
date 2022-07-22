@@ -29,7 +29,7 @@
             "review": "<?php echo urlencode("I want to review {$vendor['name']} ({$vendor['id']})") ?>",
             "report": "<?php echo urlencode("I want to report {$vendor['name']} ({$vendor['id']})") ?>",
           }
-          var url = `https://api.whatsapp.com/send?phone=${phone}&text=${message[type]}`;
+          var url = `https://api.whatsapp.com/send?phone=${phone}&text=${messages[type]}`;
           window.open(url);
         }
     </script>
