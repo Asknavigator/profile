@@ -46,7 +46,7 @@ function main()
 }
 
 try {
-  main()
+  main();
 } catch (\Throwable $th) {
   echo $th->getMessage();
 }
