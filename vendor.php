@@ -49,7 +49,7 @@ function main()
 
 try {
   $vendor = main();
-  $support_number = 9068062563;
+  $support_number = 8012352000;
 }
 catch (\Throwable $th) {
   echo $th->getMessage();
