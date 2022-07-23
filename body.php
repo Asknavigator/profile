@@ -98,7 +98,7 @@
                   </div>
 
                   <div class="tr-score-value d-flex align-items-end">
-                    <span><?php echo $vendor['Total_Leads_Distributed']; ?></span> <span>/10</span>
+                    <span><?php echo $vendor['trust_score']; ?></span> <span>/10</span>
                   </div>
 
                   <span>Trust Score</span>
